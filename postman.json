@@ -1,36 +1,90 @@
 {
 	"id": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
-	"name": "Intelipost_Docs",
+	"name": "Intelipost REST API",
 	"description": "Collection com todas as API's da Intelipost.",
-	"order": [
-		"bd3faa82-03ec-6651-1de2-bf4242944836",
-		"dd85a103-3e3b-0ba6-7673-5a9e447ae15a",
-		"83824bdb-9e48-c7ce-5a0f-036a8c53fe9a",
-		"a8c6ef1f-67c0-5649-25e9-17db2c885900",
-		"4a407ffc-fab5-5afb-fed3-49b156294fe4",
-		"c3ac31e2-70f1-7b47-8194-47826982f588",
-		"cd76d040-3406-37df-0a22-b5fbd6a3fe1a",
-		"863841f8-4d7d-8bdc-55d9-5fb888ae6919",
-		"2458caba-01eb-4cc0-7b07-dc1f312ad89b",
-		"8220e557-792e-e4dc-9fde-a45a66a7f2f9",
-		"993b3c32-b3a4-1907-dc6e-d226ecf8dc60",
-		"3271cf2f-ee12-70bb-d3d9-7c416436f563",
-		"9e1b951c-e587-b307-1627-60031962ce86",
-		"688f4043-0b8e-dcb2-83a9-0555acbf7589",
-		"2664f74e-a213-1a33-6081-c4a32a96868d",
-		"6a4de01a-846a-1f33-7e58-626508288c42",
-		"529ac0c2-f615-b00d-7749-67cdc8e799d0",
-		"2ea55337-d877-a406-5a21-ed4e644ff53b",
-		"9cf2df73-a097-885b-a548-da737ce2b135",
-		"c521eaee-3c7f-f934-5cfc-20d7fff78f2a",
-		"4677f885-3a88-9acf-2f0c-a9bf3703a3fd"
+	"order": [],
+	"folders": [
+		{
+			"id": "3bb526e6-ab41-66a1-4e4b-4276e83ed0ec",
+			"name": "CEP",
+			"description": "",
+			"write": true,
+			"order": [
+				"bd3faa82-03ec-6651-1de2-bf4242944836"
+			],
+			"collection_name": "Intelipost REST API",
+			"collection_owner": "24529",
+			"collection_id": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"collection": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"owner": "24529"
+		},
+		{
+			"id": "c341b076-4c6b-4886-e29a-8e1fc9a903b7",
+			"name": "Cotação",
+			"description": "",
+			"write": true,
+			"order": [
+				"dd85a103-3e3b-0ba6-7673-5a9e447ae15a",
+				"83824bdb-9e48-c7ce-5a0f-036a8c53fe9a",
+				"a8c6ef1f-67c0-5649-25e9-17db2c885900",
+				"4a407ffc-fab5-5afb-fed3-49b156294fe4"
+			],
+			"collection_name": "Intelipost REST API",
+			"collection_owner": "24529",
+			"collection_id": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"collection": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"owner": "24529",
+			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247"
+		},
+		{
+			"id": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
+			"name": "Pedido de Envio",
+			"description": "",
+			"write": true,
+			"order": [
+				"c3ac31e2-70f1-7b47-8194-47826982f588",
+				"cd76d040-3406-37df-0a22-b5fbd6a3fe1a",
+				"863841f8-4d7d-8bdc-55d9-5fb888ae6919",
+				"8220e557-792e-e4dc-9fde-a45a66a7f2f9",
+				"2458caba-01eb-4cc0-7b07-dc1f312ad89b",
+				"993b3c32-b3a4-1907-dc6e-d226ecf8dc60",
+				"3271cf2f-ee12-70bb-d3d9-7c416436f563",
+				"9e1b951c-e587-b307-1627-60031962ce86",
+				"688f4043-0b8e-dcb2-83a9-0555acbf7589",
+				"2664f74e-a213-1a33-6081-c4a32a96868d",
+				"6a4de01a-846a-1f33-7e58-626508288c42",
+				"529ac0c2-f615-b00d-7749-67cdc8e799d0",
+				"2ea55337-d877-a406-5a21-ed4e644ff53b",
+				"9cf2df73-a097-885b-a548-da737ce2b135",
+				"c521eaee-3c7f-f934-5cfc-20d7fff78f2a"
+			],
+			"collection_name": "Intelipost REST API",
+			"collection_owner": "24529",
+			"collection_id": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"collection": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"owner": "24529",
+			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247"
+		},
+		{
+			"id": "72375fdf-4b3e-6304-b86b-9b37ee5e4b17",
+			"name": "Rastreamento",
+			"description": "",
+			"write": true,
+			"order": [
+				"4677f885-3a88-9acf-2f0c-a9bf3703a3fd"
+			],
+			"collection_name": "Intelipost REST API",
+			"collection_owner": "24529",
+			"collection_id": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"collection": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"owner": "24529"
+		}
 	],
-	"folders": [],
 	"timestamp": 1425505577740,
 	"synced": false,
 	"owner": "24529",
 	"subscribed": false,
-	"remoteLink": "",
+	"remoteLink": "https://www.getpostman.com/collections/8686d51e692ab4a828d9",
 	"public": false,
 	"write": true,
 	"requests": [
@@ -49,9 +103,11 @@
 			"helperAttributes": {},
 			"time": 1425506424324,
 			"name": "Consultar notas fiscais",
-			"description": "",
+			"description": "API que consulta notas ficais de um pedido \natravés do número da ordem.\n\nhttps://docs.intelipost.com.br/#consultar-notas-fiscais",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false
 		},
 		{
@@ -69,8 +125,10 @@
 			"helperAttributes": {},
 			"time": 1425506466331,
 			"name": "Atualizar notas fiscais de um pedido",
-			"description": "https://docs.intelipost.com.br/#atualizar-notas-fiscais-de-um-pedido",
+			"description": "API permite que a loja envie e atualize o número da nota\nfiscal por volume com base no número de pedido criado \nna Intelipost.\n\nhttps://docs.intelipost.com.br/#atualizar-notas-fiscais-de-um-pedido",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false,
 			"rawModeData": "{\n  \"order_number\": \"1234\",\n  \"shipment_order_volume_invoice_array\": [\n    {\n      \"shipment_order_volume_number\":\"1\",\n      \"invoice_series\":\"BR123432423\",\n      \"invoice_number\":\"BR123432423\",\n      \"invoice_key\":\"41140502834982004563550010000084111000132317\",\n      \"invoice_date\":\"2014-02-28\",\n      \"invoice_total_value\":\"32,49\",\n      \"invoice_products_value\":\"28,99\",\n      \"invoice_cfop\": \"5120\"\n    }\n  ]\n}"
 		},
@@ -89,9 +147,11 @@
 			"helperAttributes": {},
 			"time": 1425506518238,
 			"name": "Marcar pedido como enviado",
-			"description": "https://docs.intelipost.com.br/#marcar-pedido-como-enviado",
+			"description": "API que já passa um pedido diretamente para \no status \"Despachado\" logo depois de ser criado.\n\n\nhttps://docs.intelipost.com.br/#marcar-pedido-como-enviado",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false,
 			"rawModeData": "{\n    \"order_number\": \"1234\"\n}"
 		},
@@ -110,14 +170,16 @@
 			"helperAttributes": {},
 			"time": 1425506446734,
 			"name": "Consultar volumes / caixas",
-			"description": "",
+			"description": "API consulta os volumes contidos num pedido.\n\nhttps://docs.intelipost.com.br/#consultar-volumes-/-caixas",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false
 		},
 		{
 			"id": "4677f885-3a88-9acf-2f0c-a9bf3703a3fd",
-			"headers": "Content-Type: application/json\nAccept: application/json\ntoken: a728260b-e591-415c-babc-04a9eeea73d2\nplatform: Postman\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nplatform: Postman\napi_key: {{api_key}}\n",
 			"url": "{{url}}/api/v1/tracking/create",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -128,13 +190,13 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1425506542412,
+			"time": 1427984798333,
 			"name": "Criar um rastreamento",
 			"description": "https://docs.intelipost.com.br/#criar-um-novo-tracking",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
 			"synced": false,
-			"rawModeData": "{\n  \"order_number\": \"TRCK002\",  \n  \"estimated_delivery_date\": \"2015-01-27\",\n\n  \"end_customer\": {\n      \"first_name\": \"Talita\",\n      \"last_name\": \"Teste\",\n      \"email\": \"talita.sousa@intelipost.com.br\",\n      \"phone\": \"00231424551\",\n      \"cellphone\": \"01231233123\",\n      \"federal_tax_payer_id\": \"1278312873\",\n       \"is_company\": \"false\",\n      \"shipping_address\": \"R Dr Diogo de Faria\",\n      \"shipping_number\": \"2\",\n      \"shipping_additional\": \"Apto 202\",\n      \"shipping_reference\": \"Supermercado Supertest\",\n      \"shipping_quarter\": \"Vila Clementino\",\n      \"shipping_city\": \"São Paulo\",\n      \"shipping_state\": \"São Paulo\",\n      \"shipping_zip_code\": \"04037–002\",\n      \"shipping_country\": \"BR\"\n  },\n  \"shipment_order_volume_array\": [\n      {\n          \"shipment_order_volume_number\":1,\n          \"tracking_code\":\"SW123456789BR\",\n          \"shipment_order_volume_invoice\":  {\n              \"invoice_series\":\"1\",\n              \"invoice_number\":\"1432\",\n              \"invoice_key\":\"35140509491113000454550050000523411802833541\",\n              \"invoice_date\":\"2014-05-28\",\n              \"invoice_total_value\":\"45.99\",\n              \"invoice_products_value\":\"38.99\"\n              }\n      }\n  ],\n  \"provider_shipping_cost\": 25.87,\n  \"customer_shipping_costs\": 25.87,\n  \"logistic_provider\": \"Correios\",\n  \"delivery_method_description\": \"Correios PAC (Standard)\",\n  \"delivery_method_id\": 1\n\n}"
+			"rawModeData": "{\n  \"order_number\": \"TSTTRCK020412\",  \n  \"estimated_delivery_date\": \"2015-01-27\",\n\n  \"end_customer\": {\n      \"first_name\": \"Talita\",\n      \"last_name\": \"Teste\",\n      \"email\": \"talita.sousa@intelipost.com.br\",\n      \"phone\": \"00231424551\",\n      \"cellphone\": \"01231233123\",\n      \"federal_tax_payer_id\": \"1278312873\",\n       \"is_company\": \"false\",\n      \"shipping_address\": \"R Dr Diogo de Faria\",\n      \"shipping_number\": \"2\",\n      \"shipping_additional\": \"Apto 202\",\n      \"shipping_reference\": \"Supermercado Supertest\",\n      \"shipping_quarter\": \"Vila Clementino\",\n      \"shipping_city\": \"São Paulo\",\n      \"shipping_state\": \"São Paulo\",\n      \"shipping_zip_code\": \"04037–002\",\n      \"shipping_country\": \"BR\"\n  },\n  \"shipment_order_volume_array\": [\n      {\n          \"shipment_order_volume_number\":1,\n          \"tracking_code\":\"SW123456789BR\",\n          \"shipment_order_volume_invoice\":  {\n              \"invoice_series\":\"1\",\n              \"invoice_number\":\"1432\",\n              \"invoice_key\":\"35140509491113000454550050000523411802833541\",\n              \"invoice_date\":\"2014-05-28\",\n              \"invoice_total_value\":\"45.99\",\n              \"invoice_products_value\":\"38.99\"\n              }\n      }\n  ],\n  \"provider_shipping_cost\": 25.87,\n  \"customer_shipping_costs\": 25.87,\n  \"logistic_provider\": \"Correios\",\n  \"delivery_method_description\": \"Correios PAC (Standard)\",\n  \"delivery_method_id\": 1\n\n}"
 		},
 		{
 			"id": "4a407ffc-fab5-5afb-fed3-49b156294fe4",
@@ -149,17 +211,18 @@
 			"tests": "",
 			"time": 1414689843168,
 			"name": "Consultar uma cotação",
-			"description": "API para consultar uma cotação efetuada anteriormente.\n",
+			"description": "API para consultar uma cotação efetuada anteriormente.\n\nhttps://docs.intelipost.com.br/#consultar-uma-cotação",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
 			"synced": false,
 			"write": true,
 			"owner": "24529",
-			"collectionOwner": 0
+			"collectionOwner": 0,
+			"folder": "c341b076-4c6b-4886-e29a-8e1fc9a903b7"
 		},
 		{
 			"id": "529ac0c2-f615-b00d-7749-67cdc8e799d0",
-			"headers": "Content-Type: application/json\nAccept: application/json\napi_key: {{api_key}}\nplatform: Postman\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nplatform: Postman\napi_key: {{api_key}}\n",
 			"url": "{{url}}/api/v1/shipping_order/set_volume",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -170,13 +233,13 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1425506511964,
+			"time": 1427919160481,
 			"name": "Atualizar volumes de um pedido",
-			"description": "https://docs.intelipost.com.br/#atualizar-volumes-de-um-pedido",
+			"description": "API atualiza os dados referente a um volume, \npor exemplo a quantidade.\n\nhttps://docs.intelipost.com.br/#atualizar-volumes-de-um-pedido",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
 			"synced": false,
-			"rawModeData": "{\n    \"order_number\": \"1314252352\",\n    \"shipment_order_volume_array\": [\n        {\n            \"shipment_order_volume_number\":1,\n            \"weight\":1.0,\n            \"volume_type_code\":\"box\",\n            \"width\":10.0,\n            \"height\":20.0,\n            \"length\":30.0,\n            \"products_nature\":\"beverages\",\n            \"products_quantity\":3,\n            \"is_icms_exempt\": false,\n            \"tracking_code\": \"SW123456789BR\",\n            \"shipment_order_volume_invoice\":\n            {\n                \"invoice_series\":\"123123123\",\n                \"invoice_number\":\"BR283248123\",\n                \"invoice_key\":\"CDFx2342396078192310231982\",\n                \"invoice_date\":\"2014-02-28\",\n                \"invoice_total_value\":32.49,\n                \"invoice_products_value\":28.99,\n                \"invoice_cfop\": \"3650\"\n            }\n        }\n    ]\n}"
+			"rawModeData": "{\n    \"order_number\": \"31032015_04\",\n    \"shipment_order_volume_array\": [\n        {\n            \"shipment_order_volume_number\":1,\n            \"weight\":1.0,\n            \"volume_type_code\":\"box\",\n            \"width\":10.0,\n            \"height\":20.0,\n            \"length\":30.0,\n            \"products_nature\":\"beverages\",\n            \"products_quantity\":3,\n            \"is_icms_exempt\": false,\n            \"tracking_code\": \"SW123456789BR\",\n            \"shipment_order_volume_invoice\":\n            {\n                \"invoice_series\":\"123123123\",\n                \"invoice_number\":\"BR283248123\",\n                \"invoice_key\":\"CDFx2342396078192310231982\",\n                \"invoice_date\":\"2014-02-28\",\n                \"invoice_total_value\":32.49,\n                \"invoice_products_value\":28.99,\n                \"invoice_cfop\": \"3650\"\n            }\n        }\n    ]\n}"
 		},
 		{
 			"id": "688f4043-0b8e-dcb2-83a9-0555acbf7589",
@@ -193,9 +256,11 @@
 			"helperAttributes": {},
 			"time": 1425506460237,
 			"name": "Marcar pedido como pronto para envio",
-			"description": "https://docs.intelipost.com.br/#marcar-pedido-como-pronto-para-envio",
+			"description": "API altera o status do pedido para Pronto para envio\ncom base no número do pedido.\n\nhttps://docs.intelipost.com.br/#marcar-pedido-como-pronto-para-envio",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false,
 			"rawModeData": "{\n    \"order_number\": \"1234\"\n  }"
 		},
@@ -214,9 +279,11 @@
 			"helperAttributes": {},
 			"time": 1425506503907,
 			"name": "Atualizar dados de rastreamento",
-			"description": "https://docs.intelipost.com.br/#atualizar-dados-de-rastreamento",
+			"description": "Associa e/ou atualiza o código de rastreamento\nde um pedido.\nhttps://docs.intelipost.com.br/#atualizar-dados-de-rastreamento",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false,
 			"rawModeData": "{\n    \"order_number\": \"BR12345\",\n    \"tracking_data_array\": [\n        {\n            \"shipment_order_volume_number\":1,\n            \"tracking_code\": \"SW123456789BR\"\n            },\n        \n        {\n            \"shipment_order_volume_number\":2,\n            \"tracking_code\": \"SW123456789BR\"\n        }\n    ]\n}"
 		},
@@ -235,14 +302,16 @@
 			"helperAttributes": {},
 			"time": 1425506430448,
 			"name": "Consultar dados do destinatário",
-			"description": "API para consulta de dados do destinatário\ndo pedido",
+			"description": "API para consulta de dados do destinatário\ndo pedido através do número do pedido\n\nhttps://docs.intelipost.com.br/#consultar-dados-do-destinat%C3%A1rio\n\n",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false
 		},
 		{
 			"id": "83824bdb-9e48-c7ce-5a0f-036a8c53fe9a",
-			"headers": "Content-Type: application/json\nAccept: application/json\napi_key: {{api_key}}\nplatform: Postman\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nplatform: Postman\napi_key: 4ead925b3111789f4fdd2e625dfb05c5e0bed4b4a7d715123cdb02763a2e981a\n",
 			"url": "{{url}}/api/v1/quote_by_product ",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -253,13 +322,15 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1425506374242,
+			"time": 1425588454182,
 			"name": "Criar cotação por produto",
-			"description": "API para cotar por produto, ou seja, possível \ncotar para vários produtos de 1 ou vários sku's.",
+			"description": "API para cotar por produto, ou seja, possível \ncotar para vários produtos de 1 ou vários sku's.\n\nhttps://docs.intelipost.com.br/#criar-cotação-por-produto",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "c341b076-4c6b-4886-e29a-8e1fc9a903b7",
 			"synced": false,
-			"rawModeData": "{\n    \"quoting_by_product_mode\": \"dynamic_box_by_sku\",\n    \"origin_zip_code\": \"01001-000\",\n    \"destination_zip_code\": \"06396-200\",\n    \"products\": [\n        {\n            \"weight\": 2.0,\n            \"cost_of_goods\": 50.00,\n            \"width\": 10.0,\n            \"height\": 10.0,\n            \"length\": 10.0,\n            \"quantity\": 10,\n            \"sku_id\": \"12345\",\n            \"description\": \"doritos\",\n            \"can_group\": \"true\"\n        },\n        {\n        \"weight\": 2.0,\n            \"cost_of_goods\": 50.00,\n            \"width\": 10.0,\n            \"height\": 10.0,\n            \"length\": 10.0,\n            \"quantity\": 10,\n            \"sku_id\": \"12345\",\n            \"description\": \"doritos\",\n            \"can_group\": \"true\"\n        }\n    ],\n    \"additional_information\": {\n        \"free_shipping\": false,\n        \"extra_cost_absolute\": 0,\n        \"lead_time_business_days\": 0\n    }\n}"
+			"rawModeData": "{\n   \n    \"origin_zip_code\": \"01001-000\",\n    \"destination_zip_code\": \"06396-200\",\n    \"products\": [\n        {\n            \"weight\": 2.0,\n            \"cost_of_goods\": 50.00,\n            \"width\": 10.0,\n            \"height\": 10.0,\n            \"length\": 10.0,\n            \"quantity\": 10,\n            \"sku_id\": \"12345\",\n            \"description\": \"doritos\",\n            \"can_group\": \"true\"\n        },\n        {\n        \"weight\": 2.0,\n            \"cost_of_goods\": 50.00,\n            \"width\": 10.0,\n            \"height\": 10.0,\n            \"length\": 10.0,\n            \"quantity\": 10,\n            \"sku_id\": \"12345\",\n            \"description\": \"doritos\",\n            \"can_group\": \"true\"\n        }\n    ],\n    \"additional_information\": {\n        \"free_shipping\": false,\n        \"extra_cost_absolute\": 0,\n        \"lead_time_business_days\": 0\n    }\n}"
 		},
 		{
 			"id": "863841f8-4d7d-8bdc-55d9-5fb888ae6919",
@@ -276,9 +347,11 @@
 			"helperAttributes": {},
 			"time": 1425506414939,
 			"name": "Cancelar um pedido de envio",
-			"description": "API para cancelamento de um envio",
+			"description": "Cancela um pedido de envio que está na Intelipost\n\nhttps://docs.intelipost.com.br/#cancelar-um-pedido-de-envio",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false,
 			"rawModeData": "{\n    \"order_number\": \"1234\"\n  }"
 		},
@@ -297,9 +370,11 @@
 			"helperAttributes": {},
 			"time": 1425506438111,
 			"name": "Consultar etiquetas",
-			"description": "",
+			"description": "API que retorna a etiqueta através \ndo número do pedido e número do volume \ndo pedido\n\nhttps://docs.intelipost.com.br/#consultar-notas-fiscais",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false
 		},
 		{
@@ -317,8 +392,10 @@
 			"helperAttributes": {},
 			"time": 1425506524824,
 			"name": "Preparação do Envio",
-			"description": "https://docs.intelipost.com.br/#preparação-do-envio",
+			"description": "API permite que um pedido que seja marcado com\nstatus \"pronto para envio\" logo depois de ser\ncriado, por exemplo. \n\nhttps://docs.intelipost.com.br/#preparação-do-envio",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false,
 			"rawModeData": "{\n      \"order_number\": \"2001\"\n    }"
 		},
@@ -337,9 +414,11 @@
 			"helperAttributes": {},
 			"time": 1425506453504,
 			"name": "Consultar status",
-			"description": "https://docs.intelipost.com.br/#consultar-status",
+			"description": "API detalha qual ou quais status o pedido passsou e/ou está.\n\nhttps://docs.intelipost.com.br/#consultar-status",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false
 		},
 		{
@@ -355,13 +434,13 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1425506382620,
+			"time": 1428431585794,
 			"name": "Criar cotação por volume",
 			"description": "API para cotação apenas para 1 produto",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
 			"synced": false,
-			"rawModeData": "{\r\n  \"origin_zip_code\": \"04037-003\",\r\n  \"destination_zip_code\": \"01311-000\",\r\n  \"volumes\": [\r\n    {\r\n      \"weight\": 0.1,\r\n      \"volume_type\": \"ENVELOPE\",\r\n      \"cost_of_goods\": 150.0,\r\n      \"width\": 10,\r\n      \"height\": 10,\r\n      \"length\": 25\r\n    }\r\n  ],\r\n  \"additional_information\": {\r\n    \"free_shipping\": false,\r\n    \"extra_cost_absolute\": 0,\r\n    \"lead_time_business_days\": 0,\r\n    \"delivery_method_ids\": [\r\n      \r\n    ]\r\n  }\r\n}"
+			"rawModeData": "{\r\n  \"origin_zip_code\": \"04037-003\",\r\n  \"destination_zip_code\": \"06396-200\",\r\n  \"volumes\": [\r\n    {\r\n      \"weight\": 0.1,\r\n      \"volume_type\": \"BOX\",\r\n      \"cost_of_goods\": 150.0,\r\n      \"width\": 10,\r\n      \"height\": 10,\r\n      \"length\": 25\r\n    }\r\n  ],\r\n  \"additional_information\": {\r\n    \"free_shipping\": false,\r\n    \"extra_cost_absolute\": 0,\r\n    \"extra_cost_percentage\": 0,\r\n    \"lead_time_business_days\": 0,\r\n    \"cnpj\": 47427653010935,\r\n    \"delivery_method_ids\": [\r\n      \r\n    ]\r\n  }\r\n}"
 		},
 		{
 			"id": "bd3faa82-03ec-6651-1de2-bf4242944836",
@@ -378,9 +457,11 @@
 			"helperAttributes": {},
 			"time": 1425506352538,
 			"name": "CEP - Autocomplete",
-			"description": "https://docs.intelipost.com.br/#cep-autocomplete\n",
+			"description": "Coleta dados do endereço de um CEP.\n\nhttps://docs.intelipost.com.br/#cep-autocomplete\n",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "3bb526e6-ab41-66a1-4e4b-4276e83ed0ec",
 			"synced": false
 		},
 		{
@@ -396,12 +477,12 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1425506400185,
+			"time": 1427804585361,
 			"name": "Criar um novo pedido de envio",
-			"description": "API para criação de envio de pedido. Ou seja,\nenviar um pedido para a Intelipost.",
+			"description": "API envia pedido para a Intelipost\n\nhttps://docs.intelipost.com.br/#criar-um-novo-pedido-de-envio",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"synced": false,
-			"rawModeData": "{\r\n  \"quote_id\": 135034,\r\n  \"delivery_method_id\": 4,\r\n  \"end_customer\": {\r\n    \"first_name\": \"Talita\",\r\n    \"last_name\": \"Sousa\",\r\n    \"email\": \"talita.sousa@intelipost.com.br\",\r\n    \"phone\": \"00231424551\",\r\n    \"cellphone\": \"5511975598727\",\r\n    \"is_company\": false,\r\n    \"federal_tax_payer_id\": \"44611341801\",\r\n    \"state_tax_payer_id\": \"2314234\",\r\n    \"shipping_address\": \"Avenida Paulista\",\r\n    \"shipping_number\": \"2\",\r\n    \"shipping_additional\": \"Apto 202\",\r\n    \"shipping_reference\": \"Supermercado Superpão\",\r\n    \"shipping_quarter\": \"Consolação\",\r\n    \"shipping_city\": \"São Paulo\",\r\n    \"shipping_state\": \"São Paulo\",\r\n    \"shipping_zip_code\": \"01311-000\",\r\n    \"shipping_country\": \"BR\"\r\n  },\r\n  \"shipment_order_volume_array\": [\r\n    {\r\n      \"shipment_order_volume_number\": 1,\r\n      \"weight\": 3.2,\r\n      \"volume_type_code\": \"box\",\r\n      \"width\": 10,\r\n      \"height\": 20,\r\n      \"length\": 30,\r\n      \"products_nature\": \"beverages\",\r\n      \"products_quantity\": 3,\r\n      \"is_icms_exempt\": false,\r\n      \"tracking_code\": \"SW123456789BR\",\r\n      \"shipment_order_volume_invoice\": {\r\n        \"invoice_series\": \"1\",\r\n        \"invoice_number\": \"1000\",\r\n        \"invoice_key\": \"41140502834982004563550010000084111000132317\",\r\n        \"invoice_date\": \"12-03-14\",\r\n        \"invoice_total_value\": \"45.99\",\r\n        \"invoice_products_value\": \"39.99\",\r\n        \"invoice_cfop\": \"2890\"\r\n      }\r\n    }\r\n  ],\r\n  \"order_number\": \"09022015_21\",\r\n  \"estimated_delivery_date\": \"2015-03-15\"\r\n}"
+			"rawModeData": "{\r\n  \"quote_id\": 191282,\r\n  \"delivery_method_id\": 3,\r\n  \"end_customer\": {\r\n    \"first_name\": \"Talita\",\r\n    \"last_name\": \"Sousa\",\r\n    \"email\": \"talita.sousa@intelipost.com.br\",\r\n    \"phone\": \"00231424551\",\r\n    \"cellphone\": \"5511975598727\",\r\n    \"is_company\": false,\r\n    \"federal_tax_payer_id\": \"44611341801\",\r\n    \"state_tax_payer_id\": \"2314234\",\r\n    \"shipping_address\": \"Avenida Paulista\",\r\n    \"shipping_number\": \"2\",\r\n    \"shipping_additional\": \"Apto 202\",\r\n    \"shipping_reference\": \"Supermercado Superpão\",\r\n    \"shipping_quarter\": \"Consolação\",\r\n    \"shipping_city\": \"São Paulo\",\r\n    \"shipping_state\": \"São Paulo\",\r\n    \"shipping_zip_code\": \"01311-000\",\r\n    \"shipping_country\": \"BR\"\r\n  },\r\n  \"shipment_order_volume_array\": [\r\n    {\r\n      \"shipment_order_volume_number\": 1,\r\n      \"weight\": 3.2,\r\n      \"volume_type_code\": \"box\",\r\n      \"width\": 10,\r\n      \"height\": 20,\r\n      \"length\": 30,\r\n      \"products_nature\": \"beverages\",\r\n      \"products_quantity\": 3,\r\n      \"is_icms_exempt\": false,\r\n      \"tracking_code\": \"\",\r\n      \"shipment_order_volume_invoice\": {\r\n        \"invoice_series\": \"1\",\r\n        \"invoice_number\": \"1000\",\r\n        \"invoice_key\": \"41140502834982004563550010000084111000132317\",\r\n        \"invoice_date\": \"12-03-14\",\r\n        \"invoice_total_value\": \"45.99\",\r\n        \"invoice_products_value\": \"39.99\",\r\n        \"invoice_cfop\": \"2890\"\r\n      }\r\n    }\r\n  ],\r\n  \"order_number\": \"31032015_01\",\r\n  \"estimated_delivery_date\": \"2015-04-15\"\r\n}"
 		},
 		{
 			"id": "c521eaee-3c7f-f934-5cfc-20d7fff78f2a",
@@ -418,8 +499,10 @@
 			"helperAttributes": {},
 			"time": 1425506531478,
 			"name": "Impressão das Etiquetas",
-			"description": "https://docs.intelipost.com.br/#impressão-das-etiquetas",
+			"description": "API para a geração e impressão de etiquetas de \npedidos.\n\nhttps://docs.intelipost.com.br/#impressão-das-etiquetas",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false
 		},
 		{
@@ -437,8 +520,10 @@
 			"helperAttributes": {},
 			"time": 1425506407294,
 			"name": "Consultar um pedido de envio",
-			"description": "API para a consulta de um pedido de envio\njá efetuado.",
+			"description": "API para a consulta de um pedido de envio\njá efetuado.\n\nhttps://docs.intelipost.com.br/#consultar-um-pedido-de-envio",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"write": true,
+			"folder": "bb63c5e5-d9f3-4edb-0010-7c9272c0f0c5",
 			"synced": false
 		},
 		{
@@ -456,9 +541,11 @@
 			"helperAttributes": {},
 			"time": 1425506366580,
 			"name": "Consultar métodos de envio",
-			"description": "API permite que seja consultado quais são \nos métodos de envio por cliente.",
+			"description": "API permite que seja consultado quais são \nos métodos de envio disponíveis.\n\nhttps://docs.intelipost.com.br/#consultar-métodos-de-envio",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
+			"write": true,
+			"folder": "c341b076-4c6b-4886-e29a-8e1fc9a903b7",
 			"synced": false
 		}
 	]
