@@ -71,7 +71,8 @@
 			"description": "",
 			"write": true,
 			"order": [
-				"4677f885-3a88-9acf-2f0c-a9bf3703a3fd"
+				"4677f885-3a88-9acf-2f0c-a9bf3703a3fd",
+				"175996c3-2036-c4ae-1fa0-8cdcb73b041a"
 			],
 			"collection_name": "Intelipost REST API",
 			"collection_owner": "24529",
@@ -88,6 +89,27 @@
 	"public": false,
 	"write": true,
 	"requests": [
+		{
+			"id": "175996c3-2036-c4ae-1fa0-8cdcb73b041a",
+			"headers": "Content-Type: application/json;charset=UTF-8\napi-key: {{api_key}}\n",
+			"url": "(Informar URL do endpoint do webhook)",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1430328784094,
+			"name": "Webhook",
+			"description": "https://docs.intelipost.com.br/#recebimento-de-status-(webhook)35",
+			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
+			"responses": [],
+			"synced": false,
+			"rawModeData": "{\r\n  \"history\": {\r\n    \"created\": 1427143660196,\r\n    \"created_iso\": \"2015-03-23T17:47:40.196-03:00\",\r\n    \"event_date\": 1427143660182,\r\n    \"event_date_iso\": \"2015-03-23T17:47:40.182-03:00\",\r\n    \"provider_message\": \"Entrega realizada\",\r\n    \"provider_state\": \"Entregue\",\r\n    \"shipment_order_volume_id\": 234,\r\n    \"shipment_order_volume_state\": \"NEW\",\r\n    \"shipment_order_volume_state_history\": 3597,\r\n    \"shipment_order_volume_state_localized\": \"Criado\"\r\n  },\r\n  \"invoice\": {\r\n    \"invoice_key\": \"41140502834982004563550010000084111000132317\",\r\n    \"invoice_number\": \"1000\",\r\n    \"invoice_series\": \"1\"\r\n  },\r\n  \"order_number\": \"pedido112\",\r\n  \"tracking_code\": \"SW123456789BR\",\r\n  \"volume_number\": \"1\"\r\n}"
+		},
 		{
 			"id": "2458caba-01eb-4cc0-7b07-dc1f312ad89b",
 			"headers": "Content-Type: application/json\nAccept: application/json\napi_key: {{api_key}}\nplatform: Postman\n",
@@ -191,7 +213,7 @@
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"time": 1427984798333,
-			"name": "Criar um rastreamento",
+			"name": "Criar um Rastreamento",
 			"description": "https://docs.intelipost.com.br/#criar-um-novo-tracking",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
@@ -311,7 +333,7 @@
 		},
 		{
 			"id": "83824bdb-9e48-c7ce-5a0f-036a8c53fe9a",
-			"headers": "Content-Type: application/json\nAccept: application/json\nplatform: Postman\napi_key: 4ead925b3111789f4fdd2e625dfb05c5e0bed4b4a7d715123cdb02763a2e981a\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\napi_key: {{api_key}}\n",
 			"url": "{{url}}/api/v1/quote_by_product ",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -322,15 +344,13 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1425588454182,
+			"time": 1430323722948,
 			"name": "Criar cotação por produto",
 			"description": "API para cotar por produto, ou seja, possível \ncotar para vários produtos de 1 ou vários sku's.\n\nhttps://docs.intelipost.com.br/#criar-cotação-por-produto",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
-			"write": true,
-			"folder": "c341b076-4c6b-4886-e29a-8e1fc9a903b7",
 			"synced": false,
-			"rawModeData": "{\n   \n    \"origin_zip_code\": \"01001-000\",\n    \"destination_zip_code\": \"06396-200\",\n    \"products\": [\n        {\n            \"weight\": 2.0,\n            \"cost_of_goods\": 50.00,\n            \"width\": 10.0,\n            \"height\": 10.0,\n            \"length\": 10.0,\n            \"quantity\": 10,\n            \"sku_id\": \"12345\",\n            \"description\": \"doritos\",\n            \"can_group\": \"true\"\n        },\n        {\n        \"weight\": 2.0,\n            \"cost_of_goods\": 50.00,\n            \"width\": 10.0,\n            \"height\": 10.0,\n            \"length\": 10.0,\n            \"quantity\": 10,\n            \"sku_id\": \"12345\",\n            \"description\": \"doritos\",\n            \"can_group\": \"true\"\n        }\n    ],\n    \"additional_information\": {\n        \"free_shipping\": false,\n        \"extra_cost_absolute\": 0,\n        \"lead_time_business_days\": 0\n    }\n}"
+			"rawModeData": "{\n   \n    \"origin_zip_code\": \"01001-000\",\n    \"destination_zip_code\": \"06396-200\",\n    \"products\": [\n        {\n            \"weight\": 2.0,\n            \"cost_of_goods\": 50.00,\n            \"width\": 10.0,\n            \"height\": 10.0,\n            \"length\": 10.0,\n            \"quantity\": 10,\n            \"sku_id\": \"12345\",\n            \"description\": \"camiseta\",\n            \"can_group\": \"true\"\n        },\n        {\n        \"weight\": 2.0,\n            \"cost_of_goods\": 50.00,\n            \"width\": 10.0,\n            \"height\": 10.0,\n            \"length\": 10.0,\n            \"quantity\": 10,\n            \"sku_id\": \"12345\",\n            \"description\": \"calça\",\n            \"can_group\": \"true\"\n        }\n    ],\n    \"additional_information\": {\n        \"free_shipping\": false,\n        \"extra_cost_absolute\": 0,\n        \"lead_time_business_days\": 0\n        \n        \n    }\n}"
 		},
 		{
 			"id": "863841f8-4d7d-8bdc-55d9-5fb888ae6919",
@@ -423,7 +443,7 @@
 		},
 		{
 			"id": "a8c6ef1f-67c0-5649-25e9-17db2c885900",
-			"headers": "Content-Type: application/json\nAccept: application/json\napi_key: {{api_key}}\nplatform: Postman\n",
+			"headers": "Content-Type: application/json\nAccept: application/json\nplatform: teste_sandbox\napi_key: {{api_key}}\n",
 			"url": "{{url}}/api/v1/quote",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -434,13 +454,13 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1428431585794,
+			"time": 1430322615055,
 			"name": "Criar cotação por volume",
 			"description": "API para cotação apenas para 1 produto",
 			"collectionId": "16f0ac69-d16d-fa44-5ad5-8a60ce3d7247",
 			"responses": [],
 			"synced": false,
-			"rawModeData": "{\r\n  \"origin_zip_code\": \"04037-003\",\r\n  \"destination_zip_code\": \"06396-200\",\r\n  \"volumes\": [\r\n    {\r\n      \"weight\": 0.1,\r\n      \"volume_type\": \"BOX\",\r\n      \"cost_of_goods\": 150.0,\r\n      \"width\": 10,\r\n      \"height\": 10,\r\n      \"length\": 25\r\n    }\r\n  ],\r\n  \"additional_information\": {\r\n    \"free_shipping\": false,\r\n    \"extra_cost_absolute\": 0,\r\n    \"extra_cost_percentage\": 0,\r\n    \"lead_time_business_days\": 0,\r\n    \"cnpj\": 47427653010935,\r\n    \"delivery_method_ids\": [\r\n      \r\n    ]\r\n  }\r\n}"
+			"rawModeData": "{\r\n  \"origin_zip_code\": \"04037-003\",\r\n  \"destination_zip_code\": \"06396-200\",\r\n  \"volumes\": [\r\n    {\r\n      \"weight\": 0.1,\r\n      \"volume_type\": \"BOX\",\r\n      \"cost_of_goods\": 100.0,\r\n      \"width\": 10,\r\n      \"height\": 10,\r\n      \"length\": 25\r\n    },\r\n     {\r\n      \"weight\": 0.1,\r\n      \"volume_type\": \"BOX\",\r\n      \"cost_of_goods\": 100.0,\r\n      \"width\": 10,\r\n      \"height\": 10,\r\n      \"length\": 25\r\n    }\r\n  ],\r\n  \"additional_information\": {\r\n    \"free_shipping\": false,\r\n    \"extra_cost_absolute\": 0,\r\n    \"extra_cost_percentage\": 0,\r\n    \"lead_time_business_days\": 0,\r\n    \"sales_channel\": \"hotsite\",\r\n    \"client_type\": \"gold\",\r\n    \"delivery_method_ids\": [\r\n        4,\r\n        3,\r\n        2\r\n      \r\n    ]\r\n  }\r\n}"
 		},
 		{
 			"id": "bd3faa82-03ec-6651-1de2-bf4242944836",
